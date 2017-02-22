@@ -1,0 +1,23 @@
+{
+  "name": "thisWeekInBBC",
+  "version": "1.0.0",
+  "description": "Collects the last week's stories from BBC News, knocked together for vivo hack",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rob Cochran",
+  "license": "ISC",
+  "dependencies": {
+    "bbc-http-client": "git+ssh://git@github.com/bbc/bbc-http-client-node.git",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.17.0",
+    "nodemon": "^1.10.2",
+    "path": "^0.12.7",
+    "promise": "^7.1.1",
+    "request": "^2.75.0",
+    "underscore": "^1.8.3"
+  }
+}
